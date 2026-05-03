@@ -4,7 +4,7 @@ This repository contains a 10-slide HTML presentation for the published paper:
 
 **The Impact of Artificial Intelligence on Education: Blending New Technology with Equal Opportunities and Responsible Use**
 
-Authors: Ananya HG, Dr. Clara Shanti D, Harsha K, Ananya Dalania, Akshay Kumar
+Authors: Ananya HG, Harsha K, Ananya Dalania, Akshay Kumar
 
 Publication details:
 

@@ -166,8 +166,7 @@ li + li {
 }
 
 .meta-strip span,
-.takeaway,
-.publication-box a {
+.takeaway {
   border: 1px solid rgba(15, 118, 110, 0.18);
   background: #edf7f4;
   color: #164a45;
@@ -177,6 +176,33 @@ li + li {
 
 .meta-strip span {
   padding: 0.7rem 0.95rem;
+}
+
+.link-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.05rem;
+}
+
+.link-buttons a {
+  display: inline-block;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fff;
+  font-size: clamp(0.82rem, 1.55vmin, 1.05rem);
+  font-weight: 900;
+  padding: 0.72rem 0.98rem;
+  text-decoration: none;
+}
+
+.link-buttons a:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.link-buttons.compact {
+  margin-top: 0.2rem;
 }
 
 .hero-card {
@@ -399,13 +425,6 @@ li + li {
 
 .publication-box strong {
   font-size: clamp(1.25rem, 2.45vmin, 1.7rem);
-}
-
-.publication-box a {
-  display: inline-block;
-  width: fit-content;
-  padding: 0.62rem 0.8rem;
-  text-decoration: none;
 }
 
 .controls {
