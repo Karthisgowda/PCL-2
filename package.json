@@ -1,0 +1,12 @@
+{
+  "name": "ai-education-ijsred-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "check": "node check.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
